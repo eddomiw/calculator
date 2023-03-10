@@ -11,9 +11,71 @@ body {
     align-items: center;
 }
 
+button {
+    height: 27px;
+    width: 27px;
+    text-align: center;
+}
+
+.onbutton {
+    padding: 0;
+}
+
+.operator {
+    background-color: brown;
+    color: white;
+}
+
 #calculator {
     height: 300px;
     width: 200px;
     border: solid black;
     display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
 }
+
+.display {
+    margin:10px;
+    border:solid black;
+    height: 50px;
+    width: 150px;
+    text-align: center;
+}
+
+
+.buttons {
+    margin-bottom: 5px;
+    height: 200px;
+    width: 175px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: black solid;
+}
+
+.leftside , .rightside {
+    margin: 2px;
+    height: 180px;
+    
+}
+
+.leftside {
+    column-gap: 8px;
+    width: 150px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+.rightside {
+    width: 70px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+    
+
